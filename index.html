@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" type="image/png" href="images/logo.png">
+	<title>CKFlyers &mdash; Travel the world.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Tour planning" />
+	<meta name="keywords" content="travel, packages, tours, flight, inquiry, hotels, bookings, personal tour, guides, chipest" />
+	<meta name="author" content="pvakharia007@gmail.com" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+	 crossorigin="anonymous">
+
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+	<!-- CS Select -->
+	<link rel="stylesheet" href="css/cs-select.css">
+	<link rel="stylesheet" href="css/cs-skin-border.css">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.core.min.js"></script>
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+
+</head>
+
+<body>
+	<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+			<div w3-include-html="template/header.html"></div>
+			<div class="fh5co-hero">
+				<div class="fh5co-overlay"></div>
+				<div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(images/HD-Hong-Kong-Wallpaper.jpeg);">
+					<div class="desc">
+						<div class="container">
+							<div class="row">
+
+								<div class="desc2 animate-box">
+									<div class="col-sm-12">
+										<h3>Exclusive Tours</h3>
+										<!-- <h2>For Families</h2> -->
+										<h2>Fly to Magestic Hong Kong</h2>
+										<!-- <span class="price">$599</span> -->
+										<p><a class="btn btn-primary btn-lg" onClick="openModal('Hong Kong')"> Get Started</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="fh5co-features" class="cursor-pointer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md animate-box" onclick="window.location='/honeymoon'">
+							<div class="feature-left">
+								<span class="icon">
+									<i class="icon-heart"></i>
+								</span>
+								<div class="feature-copy">
+									<h3>Honeymoon</h3>
+									<p>Plan your first romantic vacation with us and make memory on the beaches of Seychelles, Greece, etc. Enjoy
+										the luxurious property with sea facing rooms and Jacuzzi on the island of Maldives.</p>
+									<!-- <p><a>Learn More</a></p> -->
+								</div>
+							</div>
+						</div>
+						<div class="col-md animate-box" onclick="window.location='/family'">
+
+							<div class="feature-left">
+								<span class="icon">
+									<i class="icon-hotairballoon"></i>
+								</span>
+								<div class="feature-copy">
+									<h3>Family Travel</h3>
+									<p> Our tours are perfectly organised in a way that each and every age member of family will enjoy and can
+										relax through the tour</p>
+									<!-- <p><a>Learn More</a></p> -->
+								</div>
+							</div>
+
+						</div>
+
+						<!-- <div class="col-md animate-box">
+							<div class="feature-left">
+								<span class="icon">
+									<i class="icon-search"></i>
+								</span>
+								<div class="feature-copy">
+									<h3>Historical</h3>
+									<p>
+										Know the history of the world from the different countries and be a part of Pharaoh, Roman, Ottoman and many
+										more.
+									</p>
+								</div>
+							</div>
+						</div> -->
+						<div class="col-md animate-box" onclick="window.location='/adventure'">
+							<div class="feature-left">
+								<span class="icon">
+									<i class="icon-compass"></i>
+								</span>
+								<div class="feature-copy">
+									<h3>Adventure</h3>
+									<p>
+										Conquer your fear with Skydiving, Mountain climbing, Hiking, Water sports, etc.
+									</p>
+									<!-- <p><a>Learn More</a></p> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="packages" class="fh5co-section-gray">
+				<div class="container">
+
+					<div class="row" id="packages_list">
+
+
+					</div>
+					<!-- <div class="row text-center mt-3 mb-5">
+						<div class="col">
+							<Button class="btn btn-lg btn-outline-info"> honeymoon </Button>
+						</div>
+						<div class="col">
+							<Button class="btn btn-lg btn-outline-primary"> Family Travel </Button>
+						</div>
+						<div class="col">
+							<Button class="btn btn-lg btn-outline-warning"> Historical </Button>
+						</div>
+						<div class="col">
+							<Button class="btn btn-lg btn-outline-success"> Adventure </Button>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</div>
+		<div w3-include-html="template/footer.html"></div>
+
+
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+	<div w3-include-html="template/descriptionModal.html"></div>
+
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/sticky.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Superfish -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Date Picker -->
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<!-- CS Select -->
+	<script src="js/classie.js"></script>
+	<script src="js/selectFx.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+
+	
+	<script src="js/packages/advanture.js"></script>
+	<script src="js/packages/family.js"></script>
+	<script src="js/packages/historical.js"></script>
+	<script src="js/packages/honeymoon.js"></script>
+	<script src="js/packages/main.js"></script>
+	<script src="js/packages/modal.controller.js"></script>
+
+</body>
+
+</html>
